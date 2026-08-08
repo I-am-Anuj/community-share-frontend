@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, ArrowLeftRight, History, Settings, CircleHelp, Plus, LogOut } from 'lucide-react';
 
 export default function Sidebar({ activeTab, setActiveTab, onShareClick, onLogout }) {
-  // Removed Profile option from the main navigation array list block
+  
   const menuItems = [
     { id: 'inventory', label: 'Space Inventory', icon: Box },
     { id: 'requests', label: 'Requests Hub', icon: ArrowLeftRight },
@@ -12,7 +12,7 @@ export default function Sidebar({ activeTab, setActiveTab, onShareClick, onLogou
   return (
     <div className="w-64 h-screen bg-white border-r border-gray-100 flex flex-col justify-between p-6 shrink-0">
       
-      {/* Top Block: Branding and Menu List */}
+      
       <div>
         <div className="mb-10 px-2">
           <h1 className="text-2xl font-bold text-[#b85c26] tracking-tight">CommunityShare</h1>
@@ -21,7 +21,7 @@ export default function Sidebar({ activeTab, setActiveTab, onShareClick, onLogou
           </p>
         </div>
 
-        {/* Dynamic Navigation Options */}
+   
         <nav className="space-y-1.5">
           {menuItems.map((item) => {
             const Icon = item.icon;
@@ -45,7 +45,7 @@ export default function Sidebar({ activeTab, setActiveTab, onShareClick, onLogou
         </nav>
       </div>
 
-      {/* Bottom Block: Lower Settings Actions */}
+      
       <div className="space-y-4">
         <div className="space-y-1 border-t border-gray-50 pt-4">
           <button 
@@ -77,7 +77,7 @@ export default function Sidebar({ activeTab, setActiveTab, onShareClick, onLogou
           </button>
         </div>
 
-        {/* Share Button Trigger */}
+    
         <button 
           onClick={onShareClick}
           className="w-full mt-auto flex items-center justify-center gap-2 px-4 py-3 bg-[#b85c26] text-white font-semibold text-sm rounded-xl hover:bg-[#a04f1f] transition-all shadow-xs cursor-pointer"
