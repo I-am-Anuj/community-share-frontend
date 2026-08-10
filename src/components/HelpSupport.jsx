@@ -79,8 +79,8 @@ export default function HelpSupport() {
             <p className="text-[10px] text-gray-400 uppercase tracking-widest font-bold">Direct Support Email</p>
             <div className="flex items-center gap-2">
               <Mail size={14} className="text-[#9a460f]" />
-              <a href="mailto:support@communityshare.org" className="text-[#9a460f] font-bold text-sm hover:underline">
-                support@communityshare.org
+              <a href="mailto:supportcommunityshare@gmail.com" className="text-[#9a460f] font-bold text-sm hover:underline">
+                supportcommunityshare@gmail.com
               </a>
             </div>
           </div>
