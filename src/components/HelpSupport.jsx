@@ -112,7 +112,7 @@ export default function HelpSupport() {
               className="flex items-center gap-1.5 text-gray-500 hover:text-[#b85c26] transition-colors"
             >
               <Mail size={14} className="shrink-0" />
-              <span>support@communityshare.org</span>
+              <span>supportcommunityshare@gmail.com</span>
             </a>
             
             <a 
